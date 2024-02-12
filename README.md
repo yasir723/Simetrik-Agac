@@ -61,6 +61,10 @@ static int simetrikMi(tree node1, tree node2)
 - `node1`: Ağaçtaki mevcut düğüm.
 - `node2`: Aynı ağaçtaki mevcut düğümü bir daha göndermek.
 
+## Dönüş Değeri
+
+Bu metodun dönüş değeri bir tamsayıdır. Eğer döndürülen değer 0 ise, verilen ağaç simetriktir. Ancak 0'dan büyük bir değer döndürülüyorsa, ağaç simetrik değildir. Bu algoritmada, simetrik olmasına aykırı her bir düğüm için 1 döndürülür. En sonunda, recursive olarak çağırıldığında her iki çağrı arasında + işareti yazıldığı için döndürülen tüm değerler toplanarak dönüş değeri oluşturulur. Örneğin, 0 + 0 + 0 + 1 + 1 + 1 + 0 + 0 gibi bir durum oluşabilir. Dolayısıyla, döndürülen değer sıfırdan büyük olabilir.
+
 ## Avantaj
 
 - İki ağaç birbirine simetrik olup olmadığını kontrol etmeyi sağlar.

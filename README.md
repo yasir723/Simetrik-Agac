@@ -5,7 +5,7 @@ Bu algoritma, verilen iki ağacın simetrik olup olmadığını kontrol eder. `�
 Bu örnekte, verilen iki ağacın simetrik olup olmadığı kontrol edilecek. Bu nedenle, her iki parametre olan `node1` ve `node2` aynı ağacı göstermelidir. Böylece verilen iki ağaç aynı ağaç yapısı olacak. Bu sayede, karşılaştırma bir ağaç ile kendisi arasında gerçekleştirilmiş olur
 
 <div align="center">
-    <h3>Simetrik Ağaçlar Örnekleri</h3>
+    <h2>Simetrik Ağaçlar Örnekleri</h2>
     <div align="center">
         <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/6df3b6e5-8f18-4d9a-8b24-1c6a8f628740" width="334">
         <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/2ebf32b5-d000-476d-99e2-870f341162c0" width="334">
@@ -15,7 +15,7 @@ Bu örnekte, verilen iki ağacın simetrik olup olmadığı kontrol edilecek. Bu
 
 
 <div align="center">
-    <h3>Simetrik Olmayan Ağaçlar Örnekleri</h3>
+    <h2>Simetrik Olmayan Ağaçlar Örnekleri</h2>
     <div align="center">
         <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/294ca6ec-6a90-4838-89f8-6f56d1fea828" width="334">
         <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/e25e9a6e-15b2-4815-84c5-3c29498ada75" width="334">

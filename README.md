@@ -101,3 +101,8 @@ static void Main(string[] args)
     Console.ReadKey();
 }
 ```
+## `Output` çıktısı
+```cmd
+simetriktir
+```
+

@@ -8,8 +8,8 @@ Bu örnekte, verilen iki ağacın simetrik olup olmadığı kontrol edilecek. Bu
     <h2>Simetrik Ağaçlar Örnekleri</h2>
     <div align="center">
         <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/6df3b6e5-8f18-4d9a-8b24-1c6a8f628740" width="334">
-        <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/2ebf32b5-d000-476d-99e2-870f341162c0" width="334">
         <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/5e2c82a7-0746-4b52-a230-fe7246bb0961" width="334">
+        <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/2ebf32b5-d000-476d-99e2-870f341162c0" width="334">
     </div>
 </div>
 
@@ -18,8 +18,8 @@ Bu örnekte, verilen iki ağacın simetrik olup olmadığı kontrol edilecek. Bu
     <h2>Simetrik Olmayan Ağaçlar Örnekleri</h2>
     <div align="center">
         <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/294ca6ec-6a90-4838-89f8-6f56d1fea828" width="334">
-        <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/e25e9a6e-15b2-4815-84c5-3c29498ada75" width="334">
         <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/725aa740-c6b1-4f8d-97f8-e9a60d8eaffb" width="334">
+        <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/e25e9a6e-15b2-4815-84c5-3c29498ada75" width="334">
     </div>
 </div>
 

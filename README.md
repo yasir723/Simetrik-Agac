@@ -2,4 +2,11 @@
 Bu algoritma, verilen iki ağacın simetrik olup olmadığını kontrol eder. İki ağacın simetrik olması için bir ağacın sol alt ağacı diğer ağacın sağ alt ağacına, bir ağacın sağ alt ağacı ise diğer ağacın sol alt ağacına eşit olmalıdır. Algoritma, öncelikle iki ağacın her bir düğümünün değerini ve alt ağaçlarını karşılaştırır. Eğer her iki ağacın her bir düğümü ve alt ağaçları simetrikse, ağaçlar simetrik olarak kabul edilir.
 
 # Bu Örnekteki Kullanımı
-Bu örnekte bir ağaç simetrik olup olmadığını kontrol edilecek bu yüzden her iki parametre olan `node1` ve `node2` aynı ağacı göstermelidir.
+Bu örnekte, verilen iki ağacın simetrik olup olmadığı kontrol edilecek. Bu nedenle, her iki parametre olan node1 ve node2 aynı ağacı göstermelidir. Böylece verilen iki ağaç aynı ağaç yapısı olacak. Bu sayede, karşılaştırma bir ağaç ile kendisi arasında gerçekleştirilmiş olur
+
+<div align="center">
+    <h3>Simetrik Ağaçlar Örnekleri</h3>
+    <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/6df3b6e5-8f18-4d9a-8b24-1c6a8f628740" width="600">
+    <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/2ebf32b5-d000-476d-99e2-870f341162c0" width="600">
+    <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/5e2c82a7-0746-4b52-a230-fe7246bb0961" width="600">
+</div>

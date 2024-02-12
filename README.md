@@ -46,7 +46,7 @@ class tree
 ```csharp
 static int simetrikMi(tree node1, tree node2)
 {
-    if (node1 == null && node1 == null) return 0;
+    if (node1 == null && node2 == null) return 0;
 
     if (node1 == null || node2 == null) return 1;
 
@@ -69,3 +69,17 @@ Bu metodun dönüş değeri bir tamsayıdır (integer). `Eğer döndürülen de�
 
 - İki ağaç birbirine simetrik olup olmadığını kontrol etmeyi sağlar.
 - Aynı ağacı hem node1 hem de node2 olarak göndererek, bu ağacın kendisine simetrik olup olmadığını kontrol etmeyi sağlar.
+
+## İşleyiş
+
+1. İlk olarak, iki düğüm de null ise (her iki ağaç da boş), simetrik olarak kabul edilir ve 0 döndürülür.
+2. Eğer yalnızca bir düğüm null ise, bu durumda ağaçlar simetrik değildir ve 1 döndürülür.
+3. Bu iki if komutu geçtikten sonra demek her iki düğüm de null değildir.
+4. Eğer her iki düğüm de null değilse, düğümlerin değerleri karşılaştırılır. Eğer değerler eşit değilse, ağaçlar simetrik değildir ve 1 döndürülür.
+5. Eğer düğümlerin değerleri eşit ise, simetriklik kontrolü için her iki ağacın alt ağaçlarına da aynı anda rekürsif olarak bakılır. Sol ağacın sol alt ağacı ile sağ ağacın sağ alt ağacı karşılaştırılır ve sol ağacın sağ alt ağacı ile sağ ağacın sol alt ağacı karşılaştırılır. Bu işlem toplamda iki alt ağacın simetrikliğini kontrol eder.
+6. Son olarak, bu rekürsif çağrıların sonuçları toplanır ve döndürülür. Eğer toplam değer 0 ise, ağaçlar simetrik olarak kabul edilir.
+
+
+
+
+

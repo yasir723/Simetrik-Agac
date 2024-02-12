@@ -41,3 +41,22 @@ class tree
 - `value`: Düğümün değerini temsil eder.
 - `right`: Düğüme bağlı olan sağ alt düğümü belirtir.
 - `left`: Düğüme bağlı olan sol alt düğümü belirtir.
+
+## `simetrikMi` Metodu
+```csharp
+static int simetrikMi(tree node1, tree node2)
+{
+    if (node1 == null && node1 == null) return 0;
+
+    if (node1 == null || node2 == null) return 1;
+
+    if (node1.value != node2.value) return 1; 
+
+    return simetrikMi(node1.left, node2.right) + simetrikMi(node1.right, node2.left);
+}
+```
+
+## Parametreler
+
+- `node1`: Ağaçtaki mevcut düğüm.
+- `node2`: Aynı ağaçtaki mevcut düğümü bir daha göndermek.

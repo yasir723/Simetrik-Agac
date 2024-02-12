@@ -22,3 +22,22 @@ Bu örnekte, verilen iki ağacın simetrik olup olmadığı kontrol edilecek. Bu
         <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/725aa740-c6b1-4f8d-97f8-e9a60d8eaffb" width="334">
     </div>
 </div>
+
+
+Bu C# sınıfı, binary ağaç veri yapısını oluşturmak için kullanılır
+## `tree` Sınıfı
+
+```csharp
+class tree
+{
+    public int value;
+    public tree right;
+    public tree left;
+}
+```
+
+### Özellikler
+
+- `value`: Düğümün değerini temsil eder.
+- `right`: Düğüme bağlı olan sağ alt düğümü belirtir.
+- `left`: Düğüme bağlı olan sol alt düğümü belirtir.

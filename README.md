@@ -79,40 +79,50 @@ Bu metodun dönüş değeri bir tamsayıdır (integer). `Eğer döndürülen de�
 5. Eğer düğümlerin değerleri eşit ise, simetriklik kontrolü için her iki ağacın alt ağaçlarına da aynı anda rekürsif olarak bakılır. Sol ağacın sol alt ağacı ile sağ ağacın sağ alt ağacı karşılaştırılır ve sol ağacın sağ alt ağacı ile sağ ağacın sol alt ağacı karşılaştırılır. Bu işlem toplamda iki alt ağacın simetrikliğini kontrol eder.
 6. Son olarak, bu rekürsif çağrıların sonuçları toplanır ve döndürülür. Eğer toplam değer 0 ise, ağaçlar simetrik olarak kabul edilir.
 
-## `nodeEkle` Metodu
+## `Main` Metodu
 ```csharp
-static tree nodeEkle(tree node, int value)
+static void Main(string[] args)
 {
-    tree tmp = new tree();
-    tmp.value = value;
+    tree root = new tree();
 
-    if (node == null)
-    {
-        node = tmp;
-        return node;
-    }
+    // ağaç yapısını oluşturma
 
-    if (node.value < value)
-    {
-        if (node.right == null)
-            node.right = tmp;
-        else
-            nodeEkle(node.right, value);
-    }
+    root.value = 9; // kök
 
-    if (node.value > value)
-    {
-        if (node.left == null)
-            node.left = tmp;
-        else
-            nodeEkle(node.left, value);
-    }
+    tree düğüm1 = new tree();
+    düğüm1.value = 7;
 
-    return node;
+    tree düğüm2 = new tree();
+    düğüm2.value = 7;
+
+    tree düğüm3 = new tree();
+    düğüm3.value = 3;
+
+    tree düğüm4 = new tree();
+    düğüm3.value = 2;
+
+    tree düğüm5 = new tree();
+    düğüm3.value = 3;
+
+    tree düğüm6 = new tree();
+    düğüm6.value = 2;
+
+    root.left = düğüm1;
+    root.right = düğüm2;
+
+    düğüm1.left = düğüm4;
+    düğüm1.right = düğüm3;
+
+    düğüm2.left = düğüm5;
+    düğüm2.right = düğüm6;
+
+    // simetrik metodu kullanımı
+
+    if (simetrikMi(root, root) == 0)
+        Console.WriteLine("simetriktir");
+    else
+        Console.WriteLine("simetrik değildir");
+
+    Console.ReadKey();
 }
 ```
-
-Bu metod, ağaç veri yapısını oluşturmak için kullanılır. `nodeEkle` metodunun nasıl çalıştığı hakkında daha fazla bilgi için [buraya tıklayabilirsiniz](https://github.com/yasir723/node-ekle).
-## `Main` Metodu
-
-

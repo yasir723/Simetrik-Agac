@@ -60,3 +60,8 @@ static int simetrikMi(tree node1, tree node2)
 
 - `node1`: Ağaçtaki mevcut düğüm.
 - `node2`: Aynı ağaçtaki mevcut düğümü bir daha göndermek.
+
+## Avantaj
+
+- İki ağaç simetrik olup olmadığını kontrol etmeyi sağlar.
+- Aynı ağacı hem node1 hem de node2 olarak göndererek, bu ağacın kendisine simetrik olup olmadığını kontrol etmeyi sağlar.

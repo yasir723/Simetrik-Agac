@@ -24,7 +24,7 @@ Bu örnekte, verilen iki ağacın simetrik olup olmadığı kontrol edilecek. Bu
 </div>
 
 
-Bu C# sınıfı, binary ağaç veri yapısını oluşturmak için kullanılır
+Bu C# sınıfı, ağaç veri yapısını oluşturmak için kullanılır
 ## `tree` Sınıfı
 
 ```csharp

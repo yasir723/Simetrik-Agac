@@ -112,7 +112,7 @@ static tree nodeEkle(tree node, int value)
 }
 ```
 
-Bu metod, ağaç veri yapısını oluşturmak için kullanılır. `nodeEkle` metodunun nasıl çalıştığı hakkında daha fazla bilgi için [buraya tıklayabilirsiniz](https://github.com/yasir723/node-ekle) - laer program
-
+Bu metod, ağaç veri yapısını oluşturmak için kullanılır. `nodeEkle` metodunun nasıl çalıştığı hakkında daha fazla bilgi için [buraya tıklayabilirsiniz](https://github.com/yasir723/node-ekle).
+## `Main` Metodu
 
 

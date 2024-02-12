@@ -79,7 +79,40 @@ Bu metodun dönüş değeri bir tamsayıdır (integer). `Eğer döndürülen de�
 5. Eğer düğümlerin değerleri eşit ise, simetriklik kontrolü için her iki ağacın alt ağaçlarına da aynı anda rekürsif olarak bakılır. Sol ağacın sol alt ağacı ile sağ ağacın sağ alt ağacı karşılaştırılır ve sol ağacın sağ alt ağacı ile sağ ağacın sol alt ağacı karşılaştırılır. Bu işlem toplamda iki alt ağacın simetrikliğini kontrol eder.
 6. Son olarak, bu rekürsif çağrıların sonuçları toplanır ve döndürülür. Eğer toplam değer 0 ise, ağaçlar simetrik olarak kabul edilir.
 
+## `nodeEkle` Metodu
+```csharp
+static tree nodeEkle(tree node, int value)
+{
+    tree tmp = new tree();
+    tmp.value = value;
 
+    if (node == null)
+    {
+        node = tmp;
+        return node;
+    }
+
+    if (node.value < value)
+    {
+        if (node.right == null)
+            node.right = tmp;
+        else
+            nodeEkle(node.right, value);
+    }
+
+    if (node.value > value)
+    {
+        if (node.left == null)
+            node.left = tmp;
+        else
+            nodeEkle(node.left, value);
+    }
+
+    return node;
+}
+```
+
+Bu metod, ağaç veri yapısını oluşturmak için kullanılır. `nodeEkle` metodunun nasıl çalıştığı hakkında daha fazla bilgi için [buraya tıklayabilirsiniz](https://github.com/yasir723/node-ekle)
 
 
 

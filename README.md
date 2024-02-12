@@ -6,7 +6,7 @@ Bu örnekte, verilen iki ağacın simetrik olup olmadığı kontrol edilecek. Bu
 
 <div align="center">
     <h3>Simetrik Ağaçlar Örnekleri</h3>
-    <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/6df3b6e5-8f18-4d9a-8b24-1c6a8f628740" >
-    <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/2ebf32b5-d000-476d-99e2-870f341162c0" >
-    <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/5e2c82a7-0746-4b52-a230-fe7246bb0961" >
+    <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/6df3b6e5-8f18-4d9a-8b24-1c6a8f628740" width="200">
+    <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/2ebf32b5-d000-476d-99e2-870f341162c0" width="200">
+    <img src="https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order/assets/111686779/5e2c82a7-0746-4b52-a230-fe7246bb0961" width="200">
 </div>

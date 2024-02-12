@@ -83,41 +83,16 @@ Bu metodun dönüş değeri bir tamsayıdır (integer). `Eğer döndürülen de�
 ```csharp
 static void Main(string[] args)
 {
-    tree root = new tree();
-
-    // ağaç yapısını oluşturma
-
-    root.value = 9; // kök
-
-    tree düğüm1 = new tree();
-    düğüm1.value = 7;
-
-    tree düğüm2 = new tree();
-    düğüm2.value = 7;
-
-    tree düğüm3 = new tree();
-    düğüm3.value = 3;
-
-    tree düğüm4 = new tree();
-    düğüm3.value = 2;
-
-    tree düğüm5 = new tree();
-    düğüm3.value = 3;
-
-    tree düğüm6 = new tree();
-    düğüm6.value = 2;
-
-    root.left = düğüm1;
-    root.right = düğüm2;
-
-    düğüm1.left = düğüm4;
-    düğüm1.right = düğüm3;
-
-    düğüm2.left = düğüm5;
-    düğüm2.right = düğüm6;
+    // Ağaç yapısını oluşturma
+    tree root = new tree() { value = 9 };
+    root.left = new tree() { value = 7 };
+    root.right = new tree() { value = 7 };
+    root.left.left = new tree() { value = 3 };
+    root.left.right = new tree() { value = 2 };
+    root.right.left = new tree() { value = 2 };
+    root.right.right = new tree() { value = 3 };
 
     // simetrik metodu kullanımı
-
     if (simetrikMi(root, root) == 0)
         Console.WriteLine("simetriktir");
     else

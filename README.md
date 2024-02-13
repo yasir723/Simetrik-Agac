@@ -106,3 +106,9 @@ static void Main(string[] args)
 simetriktir
 ```
 
+<div align="center">
+    <h3>Bir Ağaç Simetrik Kontrolü Adımları</h3>
+</div>
+
+[![Yazdırma Adımları]()](https://github.com/yasir723/Agac-Elemanlari-Yazdirmak-Pre-Order-/assets/111686779/69b40cce-02df-45f7-8453-da0bc03731d7)
+## Ek Not

@@ -111,6 +111,8 @@ simetriktir
 </div>
 
 [![Simetrik Kontrolü](https://github.com/yasir723/Simetrik-Agac/assets/111686779/1a79253b-4735-4f53-a7c8-825a9c28f6a3)](https://github.com/yasir723/Simetrik-Agac/assets/111686779/1a79253b-4735-4f53-a7c8-825a9c28f6a3)
+
+
 Yukarıdaki örnekte metot 0 değeri döndürdü, bu da verilen ağacın simetrik olduğunu gösterir
 
 
@@ -119,5 +121,7 @@ Yukarıdaki örnekte metot 0 değeri döndürdü, bu da verilen ağacın simetri
 </div>
 
 [![Simetrik Kontrolü](https://github.com/yasir723/Simetrik-Agac/assets/111686779/4b202f62-0ee7-4c22-9e84-5654cc60499e)](https://github.com/yasir723/Simetrik-Agac/assets/111686779/4b202f62-0ee7-4c22-9e84-5654cc60499e)
+
+
 Yukarıdaki örnekte metot 2 değeri döndürdü, sıfırdan büyük olduğundan verilen ağacın simetrik olmadığını gösterir
 

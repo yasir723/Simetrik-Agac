@@ -110,7 +110,7 @@ simetriktir
     <h3>Simetrik Bir Ağaç Metot Çalışma Adımları</h3>
 </div>
 
-[![Simetrik Kontrolü](https://github.com/yasir723/Simetrik-Agac/assets/111686779/1a79253b-4735-4f53-a7c8-825a9c28f6a3)](https://github.com/yasir723/Simetrik-Agac/assets/111686779/1a79253b-4735-4f53-a7c8-825a9c28f6a3)
+[![Simetrik Kontrolü](https://github.com/yasir723/Simetrik-Agac/assets/111686779/4ce76580-bafb-466d-b8a8-736b9f5764c5)](https://github.com/yasir723/Simetrik-Agac/assets/111686779/1a79253b-4735-4f53-a7c8-825a9c28f6a3)
 Yukarıdaki örnekte metot 0 değeri döndürdü, bu da verilen ağacın simetrik olduğunu gösterir
 
 
